@@ -11,6 +11,10 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens: {
+        'sm-500': {'max': '500px'},
+        'sm-380': {'max': '380px'},
+      }
     },
   },
   plugins: [],
